@@ -1,3 +1,15 @@
+//https://golang.google.cn/doc/codewalk/markov/
+
+// run: c:> go build markgov.go
+//c:> echo "a man a plan a canal panama how do you do young man" | .\markov.exe -prefix=1 -words=10
+
+// $ ./markov -words=10 < $GOROOT/README
+// This is the source code repository for the Go source
+// $ ./markov -prefix=1 -words=10 < $GOROOT/README
+// This is the go directory (the one containing this README).
+// $ ./markov -prefix=1 -words=10 < $GOROOT/README
+// This is the variable if you have just untarred a
+
 // Copyright 2011 The Go Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
